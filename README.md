@@ -525,7 +525,7 @@ Os métodos mais utilizados são:<br>
 
 Quando usamos os métodos de classificação mencionados, convertemos uma representação contínua em uma representação discreta, que é geralmente mais eficaz para análise geográfica, pois torna os padrões mais evidentes, facilita a interpretação, trata valores extremos e melhora a tomada de decisão.
 
-Apesar de os dados utilizados como exemplo não apresentaram assimetria suficiente para mostrar diferenças acentuadas entre os métodos, definiremos os mapas de cores para cada um, que o usuário poderá escolher para visualização, no controle de camadas.
+Apesar de os dados utilizados como exemplo não apresentarem assimetria suficiente para mostrar diferenças acentuadas entre os métodos, definiremos os mapas de cores para cada um, que o usuário poderá escolher para visualização, no controle de camadas.
 
 
 
