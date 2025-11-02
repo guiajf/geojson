@@ -363,6 +363,8 @@ folium.Choropleth(
 display(m)
 ```
 
+![](mapa_choropleth.png)
+
 **Adotamos a classe *folium.GeoJson***
 
 
@@ -384,6 +386,8 @@ folium.GeoJson(
 
 display(m)
 ```
+
+![](mapa_geogson.png)
 
 **Análise preliminar**
 
@@ -521,6 +525,8 @@ folium.GeoJson(
 display(m)
 ```
 
+![](mapa_densidade.png)
+
 Ao usar o percentil 95, removemos os valores extremos. A escala de cores passou a variar apenas entre 0 e P95, mas como a maioria dos dados está concentrada em faixas muito específicas, o mapa acabou destacando apenas dois grandes grupos.
 
 **Métodos de classificação**
@@ -617,10 +623,12 @@ def criar_mapa_dropdown_simples():
 
 
 # Executar versão corrigida
-mapa_corrigido = criar_mapa_dropdown_simples() 
+mapa_metodos = criar_mapa_dropdown_simples() 
 
-display(mapa_corrigido)
+display(mapa_metodos)
 ```
+
+![](mapa_metodos.png)
 
 O método de intervalos iguais revelou-se pouco informativo, pois concentrou a grande maioria dos setores em uma única classe de baixa densidade. O método de quantis também não foi eficaz, uma vez que não conseguiu distribuir os setores de maneira equilibrada entre as categorias.
 
@@ -678,6 +686,7 @@ folium.GeoJson(
 display(m)
 ```
 
+![](mapa_log.png)
 
 ```python
 # Calcular valores para a legenda baseados nos valores originais
@@ -712,6 +721,7 @@ fullscreen_plugin = Fullscreen(
 # Exibir o mapa
 display(m)
 ```
+![](mapa_final.png)
 
 **Considerações finais**
 
