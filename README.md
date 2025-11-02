@@ -623,7 +623,7 @@ Em contrapartida, o método de quebras naturais de Jenks identificou agrupamento
 
 **Escala logarítmica**
 
-Uma outra maneira de padronizar os dados, caso sejam assimétricos, consiste em convertê-los para a escala logarítmica. Nesse caso, não adotaremos nenhum método de classificação.
+Uma outra maneira de padronizar os dados, caso sejam assimétricos, consiste em convertê-los para a escala logarítmica. Nesse caso, não adotaremos nenhum método de classificação, pois a transformação logarítmica converte os dados originais assimétricos em uma distribuição aproximadamente simétrica e normal, mantém toda a informação dos dados originais e facilita a comparação visual de magnitudes relativas.
 
 
 ```python
