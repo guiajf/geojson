@@ -518,9 +518,9 @@ Ao usar o percentil 95, removemos os valores extremos. A escala de cores passou 
 
 **Métodos de classificação**
 
-Os métodos mais utilizados são:
-**Intervalos iguais**: divide a amplitude dos dados em intervalos iguais, ideal para distribuições uniformes;
-**Quantis**: divide os dados em números iguais de pontos de dados, ideal para mostrar a posição relativa;
+Os métodos mais utilizados são:<br>
+**Intervalos iguais**: divide a amplitude dos dados em intervalos iguais, ideal para distribuições uniformes;<br>
+**Quantis**: divide os dados em números iguais de pontos de dados, ideal para mostrar a posição relativa;<br>
 **Quebras naturais de Jenks**: encontra agrupamentos naturais baseados na distribuição dos dados, ideal para distribuições assimétricas com outliers.
 
 Quando usamos os métodos de classificação mencionados, convertemos uma representação contínua em uma representação discreta, que é geralmente mais eficaz para análise geográfica, pois torna os padrões mais evidentes, facilita a interpretação, trata valores extremos e melhora a tomada de decisão.
