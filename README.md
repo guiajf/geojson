@@ -147,9 +147,6 @@ if not gdf_jf.empty:
     
 
 
-    Nenhum dado foi carregado. Verifique o código do município.
-
-
 
 ```python
 gdf_jf.info()
@@ -402,19 +399,7 @@ contagem_por_setor.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -467,6 +452,8 @@ Dois terços dos 1047 setores censitários possuem até 32 estabelecimentos, res
 ```python
 contagem_por_setor.boxplot(vert=False)
 ```
+
+![](output_43_1.png)
 
 O *folium* divide a faixa de dados em intervalos de tamanho igual, baseando-se no número de cores definido na paleta. No caso específico, com colormap = *cm.linear.YlOrRd_09.scale(0, max_contagem)*, são utilizados nove intervalos.
 
@@ -659,6 +646,7 @@ for feature in geojson_data['features']:
 contagem_por_setor.boxplot(column=['MapScale'], vert=False)
 ```
 
+![](output_53_1.png)
 
 ```python
 # Escala de cores
