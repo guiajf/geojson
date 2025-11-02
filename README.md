@@ -186,7 +186,7 @@ with zipfile.ZipFile('3136702_JUIZ_DE_FORA.zip') as z:
                            chunksize=1000,
                            usecols=['COD_ESPECIE', 'COD_SETOR', 'LATITUDE', 'LONGITUDE'])
         
-        # Carregar todos os dados das categorias 3 e 6
+        # Carregar todos os dados das categorias escolhidas
         filtered_data = pd.concat([
             chunk[chunk['COD_ESPECIE'].isin([6,6])] 
             for chunk in chunks
