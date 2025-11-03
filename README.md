@@ -24,6 +24,8 @@ Existem diversos métodos para classificar os dados em mapas coropléticos, cada
 
 Para demonstrar essa técnica cartográfica e seus métodos de classificação, utilizaremos dados do Censo 2022 do Cadastro Nacional de Endereços para Fins Estatísticos. Os dados serão agregados por setores censitários do município de Juiz de Fora/MG.
 
+Para visualização, utilizaremos o **Folium**, pacote Python que cria mapas interativos usando a biblioteca JavaScript Leaflet.js. Sua principal vantagem é permitir a manipulação de dados em Python e visualizá-los diretamente em mapas do *Leaflet*, sem a necessidade de programar em *JavaScript*.
+
 As metas de aprendizagem incluem:
 
 - Extração dos shapefiles setoriais
