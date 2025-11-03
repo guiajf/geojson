@@ -384,7 +384,7 @@ folium.GeoJson(
 display(m)
 ```
 
-![](mapa_geogson.png)
+![](mapa_geojson.png)
 
 **Análise preliminar**
 
