@@ -751,8 +751,8 @@ A escala logarítmica é matematicamente mais robusta para distribuições assim
 
 Diferentes abordagens podem destacar aspectos distintos da mesma realidade espacial. A escolha do método de classificação pode alterar significativamente a interpretação de um fenômeno espacial.
 
-O mapa interativo contendo controle de camadas para seleção do método de classificação pode ser acessado [aqui](https://metodos-tawny.vercel.app/).
-O mapa interativo contendo a transformação logarítmica pode ser acessado [aqui](https://maplog-sigma.vercel.app/).
+Para visualizar os diferentes métodos de classificação clique [aqui](https://metodos-tawny.vercel.app/).<br>
+Para visualizar os dados em escala logarítmica clique [aqui](https://maplog-sigma.vercel.app/).
 
 
 **Referências**
