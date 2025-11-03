@@ -626,9 +626,6 @@ def criar_mapa_dropdown_simples():
     cmap_jenks = cm.linear.YlOrRd_09.to_step(n=n_classes, index=breaks_jenks)
     adicionar_camada(fg_jenks, breaks_jenks, cmap_jenks)
 
-    # Controle de camadas
-    folium.LayerControl(collapsed=False).add_to(m)
-
     # Adicionar plugin de tela cheia
     fullscreen_plugin = Fullscreen(
         position='bottomleft',
@@ -636,14 +633,20 @@ def criar_mapa_dropdown_simples():
         title_cancel='Sair da tela cheia',
         force_separate_button=True
     ).add_to(m)
+
+    # Controle de camadas
+    folium.LayerControl(collapsed=False).add_to(m)
+
+    # Salvar mapa como arquivo HTML
+    m.save('mapa_clas.html', close_file=True)
     
     return m
 
 
 # Executar versão corrigida
-mapa_metodos = criar_mapa_dropdown_simples() 
+mapa_clas = criar_mapa_dropdown_simples() 
 
-display(mapa_metodos)
+display(mapa_clas)
 ```
 
 ![](mapa_metodos.png)
